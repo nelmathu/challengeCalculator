@@ -21,16 +21,27 @@ namespace StringCalculator
             // Call findDelimiters() to determine if a Custom Delimeter was provided
             char[] customDelimiters = findDelimiters(numbers);
 
-            string[] stringArray = numbers.Split(customDelimiters); 
+            string[] stringArray = numbers.Split(customDelimiters);
+ 
+            // Create a List of numbers
+            List<int> numberList = new List<int>();
+
             foreach (var str in stringArray)
             {
                 if (int.TryParse(str, out number))
                 {
-                    totalSum += number;
+                    numberList.Add(number);
+                    //totalSum += number;
                 }
             }
 
-            return string.IsNullOrEmpty(numbers) ? 0 : totalSum;
+            // Remove all numbers >= 1000 from the list
+            numberList.RemoveAll(x => x >= 1000);
+
+            // Check for negative numbers in the list
+            CheckNegativesNumbers(numberList);
+
+            return string.IsNullOrEmpty(numbers) ? 0 : numberList.Sum();
         }
 
         public static char[] findDelimiters(string numbers)
@@ -45,6 +56,16 @@ namespace StringCalculator
             }
 
             return delimiters.ToArray();
+        }
+
+
+        public static void CheckNegativesNumbers(List<int> numbersList)
+        {
+            var negativeNumbers = numbersList.Where(x => x < 0).ToList();
+            if (negativeNumbers.Any())
+            {
+                throw new NegativesNotAllowedException(negativeNumbers);
+            }
         }
 
     }

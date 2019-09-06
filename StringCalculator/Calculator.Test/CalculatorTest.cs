@@ -87,5 +87,40 @@ namespace Calculator.Test
 
             Assert.AreEqual(expectedValue, actualValue);
         }
+
+        [TestMethod]
+        public void AddNumbers_NegativeNotAllow_ReturnException()
+        {
+            //Arrange 
+            string numbersToTest = "-1";
+
+            // Act 
+
+            // Assert
+
+            var exception = Assert.ThrowsException<StringCalculator.NegativesNotAllowedException>(() => StringCalculator.Calculator.AddNumbers(numbersToTest));
+            bool isNegative = !exception.Message.Contains("-1");
+            
+            Assert.IsTrue(isNegative);
+            {
+            }
+        }
+
+        [TestMethod]
+        public void AddNumbers_IgnoreNumbersGT1000_ReturnSum()
+        {
+            //Arrange 
+            int expectedValue = 5;
+            string numbersToTest = "1001,5,1000";
+
+            // Act 
+            int actualValue = StringCalculator.Calculator.AddNumbers(numbersToTest);
+
+            // Assert
+
+            Assert.AreEqual(expectedValue, actualValue);
+            {
+            }
+        }
     }
 }

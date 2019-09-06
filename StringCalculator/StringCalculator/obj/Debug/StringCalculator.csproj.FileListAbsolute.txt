@@ -18,3 +18,7 @@ C:\Users\Family\Documents\CSharp\GitHubRepo\challengeCalculator\StringCalculator
 C:\Users\Family\Documents\CSharp\GitHubRepo\challengeCalculator\StringCalculator\StringCalculator\obj\Debug\resources.resfiles
 C:\Users\Family\Documents\CSharp\GitHubRepo\challengeCalculator\StringCalculator\StringCalculator\obj\Debug\pri.resfiles
 C:\Users\Family\Documents\CSharp\GitHubRepo\challengeCalculator\StringCalculator\StringCalculator\obj\Debug\LanguageQualifiers.txt
+C:\Users\Family\Documents\CSharp\GitHubRepo\challengeCalculator\StringCalculator\StringCalculator\obj\Debug\priconfig.xml.intermediate
+C:\Users\Family\Documents\CSharp\GitHubRepo\challengeCalculator\StringCalculator\StringCalculator\obj\Debug\layout.resfiles.intermediate
+C:\Users\Family\Documents\CSharp\GitHubRepo\challengeCalculator\StringCalculator\StringCalculator\obj\Debug\resources.resfiles.intermediate
+C:\Users\Family\Documents\CSharp\GitHubRepo\challengeCalculator\StringCalculator\StringCalculator\obj\Debug\pri.resfiles.intermediate
