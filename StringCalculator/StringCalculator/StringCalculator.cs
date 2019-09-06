@@ -13,7 +13,7 @@ namespace StringCalculator
         {
             int totalSum = 0;
             int number;
-            string[] stringArray = numbers.Split(',');
+            string[] stringArray = numbers.Split(',', '\n'); // Defining comma and new line as separators
             foreach (var str in stringArray)
             {
                 if (int.TryParse(str, out number))

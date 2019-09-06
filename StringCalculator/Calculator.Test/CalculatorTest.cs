@@ -42,5 +42,35 @@ namespace Calculator.Test
 
             Assert.AreEqual(expectedValue, actualValue);
         }
+
+        [TestMethod]
+        public void AddNumbers_SingleValue_ReturnSameValue()
+        {
+            //Arrange 
+            int expectedValue = 20;
+            string numbersToTest = "20";
+
+            // Act 
+            int actualValue = StringCalculator.Calculator.AddNumbers(numbersToTest);
+
+            // Assert
+
+            Assert.AreEqual(expectedValue, actualValue);
+        }
+
+        [TestMethod]
+        public void AddNumbers_SupportNewLineSeparator_ReturnSum()
+        {
+            //Arrange 
+            int expectedValue = 17;
+            string numbersToTest = "8\n2,\n7";
+
+            // Act 
+            int actualValue = StringCalculator.Calculator.AddNumbers(numbersToTest);
+
+            // Assert
+
+            Assert.AreEqual(expectedValue, actualValue);
+        }
     }
 }
