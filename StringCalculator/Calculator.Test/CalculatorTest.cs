@@ -72,5 +72,20 @@ namespace Calculator.Test
 
             Assert.AreEqual(expectedValue, actualValue);
         }
+
+        [TestMethod]
+        public void AddNumbers_AllowCustomDelimiter_ReturnSum()
+        {
+            //Arrange 
+            int expectedValue = 18;
+            string numbersToTest = "//;\n8;3;7";
+
+            // Act 
+            int actualValue = StringCalculator.Calculator.AddNumbers(numbersToTest);
+
+            // Assert
+
+            Assert.AreEqual(expectedValue, actualValue);
+        }
     }
 }
