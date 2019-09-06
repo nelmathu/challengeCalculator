@@ -22,19 +22,19 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Family\Documents\CSharp\GitHubRepo\challengeCalculator\StringCalculator\Calculator.Test\bin\Debug\Calculator.Test.dll">
       <PackagePath>Calculator.Test.dll</PackagePath>
-      <Modified>2019-09-06T11:20:26.184</Modified>
+      <Modified>2019-09-06T23:27:37.656</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Family\Documents\CSharp\GitHubRepo\challengeCalculator\StringCalculator\StringCalculator\bin\Debug\StringCalculator.dll">
       <PackagePath>StringCalculator.dll</PackagePath>
-      <Modified>2019-09-06T11:19:15.954</Modified>
+      <Modified>2019-09-06T23:21:02.445</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Family\Documents\CSharp\GitHubRepo\challengeCalculator\StringCalculator\Calculator.Test\bin\Debug\Calculator.Test.pdb">
       <PackagePath>Calculator.Test.pdb</PackagePath>
-      <Modified>2019-09-06T11:20:26.128</Modified>
+      <Modified>2019-09-06T23:27:37.578</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Family\Documents\CSharp\GitHubRepo\challengeCalculator\StringCalculator\StringCalculator\bin\Debug\StringCalculator.pdb">
       <PackagePath>StringCalculator.pdb</PackagePath>
-      <Modified>2019-09-06T11:19:15.893</Modified>
+      <Modified>2019-09-06T23:21:02.238</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSTestFramework\11.0\References\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.UnitTestFramework.dll">
       <PackagePath>Microsoft.VisualStudio.TestPlatform.UnitTestFramework.dll</PackagePath>

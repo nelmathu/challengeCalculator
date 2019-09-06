@@ -35,11 +35,11 @@ namespace StringCalculator
                 }
             }
 
-            // Remove all numbers >= 1000 from the list
-            numberList.RemoveAll(x => x >= 1000);
-
             // Check for negative numbers in the list
             CheckNegativesNumbers(numberList);
+
+            // Remove all numbers > 1000 from the list
+            numberList.RemoveAll(x => x > 1000);
 
             return string.IsNullOrEmpty(numbers) ? 0 : numberList.Sum();
         }

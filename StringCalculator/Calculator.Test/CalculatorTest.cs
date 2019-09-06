@@ -106,12 +106,31 @@ namespace Calculator.Test
             }
         }
 
+        // Ignore any number greater than 1000 e.g. 2,1001,6 will return 8
         [TestMethod]
         public void AddNumbers_IgnoreNumbersGT1000_ReturnSum()
         {
             //Arrange 
-            int expectedValue = 5;
+            int expectedValue = 1005;
             string numbersToTest = "1001,5,1000";
+
+            // Act 
+            int actualValue = StringCalculator.Calculator.AddNumbers(numbersToTest);
+
+            // Assert
+
+            Assert.AreEqual(expectedValue, actualValue);
+            {
+            }
+        }
+
+        // Numbers equal to 1000 must be included
+        [TestMethod]
+        public void AddNumbers_TestNumbersEqualTo1000_IgnoreThem()
+        {
+            //Arrange 
+            int expectedValue = 3008;
+            string numbersToTest = "2,1000,6,1000\n1001,1000";
 
             // Act 
             int actualValue = StringCalculator.Calculator.AddNumbers(numbersToTest);
