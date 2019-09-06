@@ -1,0 +1,10 @@
+C:\Users\Family\Documents\CSharp\StringCalculator\StringCalculator\bin\Debug\StringCalculator.dll
+C:\Users\Family\Documents\CSharp\StringCalculator\StringCalculator\bin\Debug\StringCalculator.pdb
+C:\Users\Family\Documents\CSharp\StringCalculator\StringCalculator\bin\Debug\StringCalculator.pri
+C:\Users\Family\Documents\CSharp\StringCalculator\StringCalculator\obj\Debug\StringCalculator.dll
+C:\Users\Family\Documents\CSharp\StringCalculator\StringCalculator\obj\Debug\StringCalculator.pdb
+C:\Users\Family\Documents\CSharp\StringCalculator\StringCalculator\obj\Debug\priconfig.xml
+C:\Users\Family\Documents\CSharp\StringCalculator\StringCalculator\obj\Debug\layout.resfiles
+C:\Users\Family\Documents\CSharp\StringCalculator\StringCalculator\obj\Debug\resources.resfiles
+C:\Users\Family\Documents\CSharp\StringCalculator\StringCalculator\obj\Debug\pri.resfiles
+C:\Users\Family\Documents\CSharp\StringCalculator\StringCalculator\obj\Debug\LanguageQualifiers.txt
