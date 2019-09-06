@@ -4,13 +4,25 @@
 
 using System;
 
+
 namespace StringCalculator
 {
     public class Calculator
     {
         public static int AddNumbers(string numbers)
         {
-            return string.IsNullOrEmpty(numbers) ? 0 : int.Parse(numbers);
+            int totalSum = 0;
+            int number;
+            string[] stringArray = numbers.Split(',');
+            foreach (var str in stringArray)
+            {
+                if (int.TryParse(str, out number))
+                {
+                    totalSum += number;
+                }
+            }
+
+            return string.IsNullOrEmpty(numbers) ? 0 : totalSum;
         }
     }
 }

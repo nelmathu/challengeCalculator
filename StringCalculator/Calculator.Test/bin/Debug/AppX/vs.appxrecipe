@@ -13,28 +13,28 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Family\Documents\CSharp\StringCalculator\Calculator.Test\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Family\Documents\CSharp\GitHubRepo\challengeCalculator\StringCalculator\Calculator.Test\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2019-09-06T02:56:05.772</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Family\Documents\CSharp\StringCalculator\Calculator.Test\bin\Debug\Calculator.Test.dll">
+    <AppxPackagedFile Include="C:\Users\Family\Documents\CSharp\GitHubRepo\challengeCalculator\StringCalculator\Calculator.Test\bin\Debug\Calculator.Test.dll">
       <PackagePath>Calculator.Test.dll</PackagePath>
-      <Modified>2019-09-06T03:12:33.813</Modified>
+      <Modified>2019-09-06T06:28:14.887</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Family\Documents\CSharp\StringCalculator\StringCalculator\bin\Debug\StringCalculator.dll">
+    <AppxPackagedFile Include="C:\Users\Family\Documents\CSharp\GitHubRepo\challengeCalculator\StringCalculator\StringCalculator\bin\Debug\StringCalculator.dll">
       <PackagePath>StringCalculator.dll</PackagePath>
-      <Modified>2019-09-06T03:08:55.752</Modified>
+      <Modified>2019-09-06T06:24:24.588</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Family\Documents\CSharp\StringCalculator\Calculator.Test\bin\Debug\Calculator.Test.pdb">
+    <AppxPackagedFile Include="C:\Users\Family\Documents\CSharp\GitHubRepo\challengeCalculator\StringCalculator\Calculator.Test\bin\Debug\Calculator.Test.pdb">
       <PackagePath>Calculator.Test.pdb</PackagePath>
-      <Modified>2019-09-06T03:12:33.760</Modified>
+      <Modified>2019-09-06T06:28:14.793</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Family\Documents\CSharp\StringCalculator\StringCalculator\bin\Debug\StringCalculator.pdb">
+    <AppxPackagedFile Include="C:\Users\Family\Documents\CSharp\GitHubRepo\challengeCalculator\StringCalculator\StringCalculator\bin\Debug\StringCalculator.pdb">
       <PackagePath>StringCalculator.pdb</PackagePath>
-      <Modified>2019-09-06T03:08:55.666</Modified>
+      <Modified>2019-09-06T06:24:24.499</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\MSTestFramework\11.0\References\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.UnitTestFramework.dll">
       <PackagePath>Microsoft.VisualStudio.TestPlatform.UnitTestFramework.dll</PackagePath>
@@ -68,27 +68,27 @@
       <PackagePath>vstest.executionengine.appcontainer.x86.exe</PackagePath>
       <Modified>2012-07-27T02:08:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Family\Documents\CSharp\StringCalculator\Calculator.Test\Images\UnitTestLogo.png">
+    <AppxPackagedFile Include="C:\Users\Family\Documents\CSharp\GitHubRepo\challengeCalculator\StringCalculator\Calculator.Test\Images\UnitTestLogo.png">
       <PackagePath>Images\UnitTestLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2011-12-12T20:52:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Family\Documents\CSharp\StringCalculator\Calculator.Test\Images\UnitTestSmallLogo.png">
+    <AppxPackagedFile Include="C:\Users\Family\Documents\CSharp\GitHubRepo\challengeCalculator\StringCalculator\Calculator.Test\Images\UnitTestSmallLogo.png">
       <PackagePath>Images\UnitTestSmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2011-12-12T20:52:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Family\Documents\CSharp\StringCalculator\Calculator.Test\Images\UnitTestSplashScreen.png">
+    <AppxPackagedFile Include="C:\Users\Family\Documents\CSharp\GitHubRepo\challengeCalculator\StringCalculator\Calculator.Test\Images\UnitTestSplashScreen.png">
       <PackagePath>Images\UnitTestSplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2011-12-12T20:52:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Family\Documents\CSharp\StringCalculator\Calculator.Test\Images\UnitTestStoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Family\Documents\CSharp\GitHubRepo\challengeCalculator\StringCalculator\Calculator.Test\Images\UnitTestStoreLogo.png">
       <PackagePath>Images\UnitTestStoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2011-12-12T20:52:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Family\Documents\CSharp\StringCalculator\Calculator.Test\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Family\Documents\CSharp\GitHubRepo\challengeCalculator\StringCalculator\Calculator.Test\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <Modified>2019-09-06T02:56:04.918</Modified>
     </AppxPackagedFile>

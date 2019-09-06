@@ -1,2 +1,2 @@
-C:\Users\Family\Documents\CSharp\StringCalculator\Calculator.Test\Calculator.Test.csproj;neutral
-C:\Users\Family\Documents\CSharp\StringCalculator\StringCalculator\StringCalculator.csproj;neutral
+C:\Users\Family\Documents\CSharp\GitHubRepo\challengeCalculator\StringCalculator\Calculator.Test\Calculator.Test.csproj;neutral
+C:\Users\Family\Documents\CSharp\GitHubRepo\challengeCalculator\StringCalculator\StringCalculator\StringCalculator.csproj;neutral

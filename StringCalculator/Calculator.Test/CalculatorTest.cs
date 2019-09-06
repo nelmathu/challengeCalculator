@@ -26,7 +26,21 @@ namespace Calculator.Test
             // Assert
 
             Assert.AreEqual(expectedValue, actualValue);
+        }
 
+        [TestMethod]
+        public void AddNumbers_InvalidValue_ReplaceToZero()
+        {
+            //Arrange 
+            int expectedValue = 4;
+            string numbersToTest = "4,6jk";
+
+            // Act 
+            int actualValue = StringCalculator.Calculator.AddNumbers(numbersToTest);
+
+            // Assert
+
+            Assert.AreEqual(expectedValue, actualValue);
         }
     }
 }
