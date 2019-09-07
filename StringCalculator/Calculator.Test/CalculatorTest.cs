@@ -141,5 +141,23 @@ namespace Calculator.Test
             {
             }
         }
+
+        // Support 1 custom delimiter of any length
+        [TestMethod]
+        public void AddNumbers_AllowDelimiterOfAnyLength_ReturnSum()
+        {
+            //Arrange 
+            int expectedValue = 66;
+            string numbersToTest = "//[***]\n11***22***33";
+
+            // Act 
+            int actualValue = StringCalculator.Calculator.AddNumbers(numbersToTest);
+
+            // Assert
+
+            Assert.AreEqual(expectedValue, actualValue);
+            {
+            }
+        }
     }
 }
